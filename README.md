@@ -8,8 +8,8 @@ As an open collaborative project, we warmly welcome your participation. Please f
 
 # Table of Contents
 
-1. Specifications
-2. General Description
+1. General Description
+2. Specifications
 3. Materials
    - Lasers
    - Electronics
@@ -18,19 +18,26 @@ As an open collaborative project, we warmly welcome your participation. Please f
 5. Configurations
 6. Usage
 
-# Specifications
-
-This system bla bla bla
-
 # General Description
 Image of the entire montage with labels [This is not the final montage yet]
-
 ![This is an image](Images/montage.jpg)
+
+# Specifications
+
+[This section contains operation details]
 
 # Materials
 ## Lasers
 
+- **Optic Fiber**
+- **Fiber Combiner**
+- **Laser #1**
+- **Laser #2**
+- **Laser #3**
+
 ## Electronics
+
+- **12V Power Supply**
 ## Optomechanics 
 3D models can be found in: Fiber-Coupled-Laser-Illumination/3D Models/
 
@@ -45,3 +52,10 @@ Image of the entire montage with labels [This is not the final montage yet]
  - **Fiber Trays:** Plastic trays to protect optic fiber from damage. This mountage uses four single trays and one double tray.
 
  ![This is an image](Images/sigle-tray.png) |  ![This is an image](Images/double-tray.png)
+ 
+ 
+ # Configurations
+ 
+ # Usage
+ 
+ # Contact 
