@@ -51,7 +51,7 @@ Image of the entire montage with labels [This is not the final montage yet]
  
  - **Fiber Trays:** Plastic trays to protect optic fiber from damage. This mountage uses four single trays and one double tray.
 
- ![This is an image](Images/sigle-tray.png) |  ![This is an image](Images/double-tray.png)
+
  
  
  # Configurations
