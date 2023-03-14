@@ -24,10 +24,24 @@ This system bla bla bla
 
 # General Description
 Image of the entire montage with labels [This is not the final montage yet]
+
 ![This is an image](Images/montage.jpg)
 
 # Materials
 ## Lasers
+
 ## Electronics
-## 3D models
+## Optomechanics 
+3D models can be found in: Fiber-Coupled-Laser-Illumination/3D Models/
+
+- **Driver Mounting Plate:** Plastic mounting plate to fix the drivers to the optic table.
+
+![This is an image](Images/Drivers.png)
+
+- **12V Power Supply Mounting Plate:**  Plastic mounting plate to fix the power supply to the optic table.
+
+ ![This is an image](Images/powersupply.png)
  
+ - **Fiber Trays:** Plastic trays to protect optic fiber from damage. This mountage uses four single trays and one double tray.
+
+ ![This is an image](Images/sigle-tray.png) |  ![This is an image](Images/double-tray.png)
