@@ -29,15 +29,26 @@ Image of the entire montage with labels [This is not the final montage yet]
 # Materials
 ## Lasers
 
-- **Optic Fiber**
-- **Fiber Combiner**
-- **Laser #1**
-- **Laser #2**
-- **Laser #3**
-
-## Electronics
+- **Fiber Combiner:** 4x1mm fiber combiner, multimode coupler to use with 400-700nm wavelength. 
+   - Input fiber: 105um core diameter, 0.22 NA, FC/PC connectors, 1 meter length
+   - Output fiber: 200um diameter,0.22 NA, FC/PC connectors, 1 meter length
+   - https://www.lfiber.com/uv-vis-nir-fiber-combiner-optical-power/
+   
+- **Laser Drivers:** 
+   - Laser Diode Driver GCF-D-R500A
+   - Laser Diode Driver GCF-D-R800A
+   - Laser Diode Driver GCF-D-R4000A
+   - http://www.micost-optotech.com/products.asp?did=75
+   
+- **Laser Diodes:**
+   - 405nm/300mW 105um Fiber Coupling Diode
+   - 488nm/55mW 105um Fiber Coupling Diode
+   - 638nm/700mW 105um Fiber Coupling Diode
+   - 638nm/185mW 4um Fiber Coupling Diode
+   - [supplier link]
 
 - **12V Power Supply**
+
 ## Optomechanics 
 3D models can be found in: Fiber-Coupled-Laser-Illumination/3D Models/
 
@@ -50,11 +61,10 @@ Image of the entire montage with labels [This is not the final montage yet]
  ![This is an image](Images/powersupply.png)
  
  - **Fiber Trays:** Plastic trays to protect optic fiber from damage. This mountage uses four single trays and one double tray.
-
-
- 
  
  # Configurations
+ 
+ 
  
  # Usage
  
