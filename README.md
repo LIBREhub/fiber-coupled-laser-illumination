@@ -67,5 +67,10 @@ Image of the entire montage with labels [This is not the final montage yet]
  
  # Usage
  
-   # Contributions 
+ # Contributions 
 As an open collaborative project, we warmly welcome your participation. Please feel free to leave comments, provide input, and make contributions by submitting your message as an issue in this repository.
+
+# References
+
+- Li, H., Krishnamurthy, D., Li, E., Vyas, P., Akireddy, N., Chai, C., & Prakash, M. (2020). Squid: Simplifying Quantitative Imaging Platform Development and Deployment. BioRxiv. https://doi.org/10.1101/2020.12.28.424613 
+- P. (s. f.). GitHub - prakashlab/octopi-driver-board: Driver electronics for the Octopi and Squid microscope families. GitHub. https://github.com/prakashlab/octopi-driver-board
