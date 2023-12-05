@@ -14,8 +14,8 @@ Settings for laser cutting acrylics will vary according to the machine. The tabl
 |Setting     |Value        |
 |------------|--           |
 |Material    |Acrylic 3mm |
-|Power (W)   |50 |
-|Speed (mm/s)|10 |
+|Power (W)   |40 |
+|Speed (mm/s)|20 |
 
 We recommend testing the parameters for acrylic laser cutting using a test matrix. Download and laser cut the [test matrix](parts/materials/test-matrix.md) file. This will only use about an 8x9x0.5cm acrylic sheet.
 
