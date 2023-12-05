@@ -5,15 +5,8 @@ Authors:
   - Pierre Padilla-Huamantinco
   - Vicente Parot
 Email: librehub@uc.cl
-CustomCategories:
-  Material:
-    DisplayName: Materials
-    Reuse: false
-  Tools:
-     DisplayName: Tools
-    Reuse: false
 LandingPage: index.md
-License: CERN-OHL-S-2.0
+License: CERN-OHL-W-2.0
 Navigation:
   - Link: assembly.md
     SubNavigation:
@@ -31,4 +24,3 @@ Navigation:
 HoverColor: '#555555'
 PrimaryColor: '#f1502f'
 SecondaryColor: '#cccccc'
-   
