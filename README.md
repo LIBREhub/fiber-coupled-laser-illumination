@@ -1,81 +1,46 @@
-# Fiber Coupled Laser Illumination
+# Low-cost and modular fiber-coupled laser illumination for microscopy [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-
-This project is an open source system for fiber coupled illumination in microscopy. This system features lasers with various wavelengths coupled in a single optic fiber, enabling easy digital selection without any structural modifications. The document includes a list of required materials, step-by-step assembly instructions, and configurations.
-
-Our goal is to provide a fully functional, research-grade equipment that delivers excellent performance. The system is modular, allowing individual parts to be repurposed and improved in the open source hardware sense, and easily combined, exchanged, or used on their own.
-
-## Table of Contents
-
-1. General Description
-2. Specifications
-3. Materials
-   - Lasers
-   - Electronics
-   - 3D models
-4. Montage
-5. Configurations
-6. Usage
-
-## General Description
-Image of the entire montage with labels [This is not the final montage yet]
-![This is an image](Images/montage.jpg)
-
-## Specifications
-
-[This section contains operation details]
-
-## Materials
-### Lasers
-
-- **Fiber Combiner:** 4x1mm fiber combiner, multimode coupler to use with 400-700nm wavelength. 
-   - Input fiber: 105um core diameter, 0.22 NA, FC/PC connectors, 1 meter length
-   - Output fiber: 200um diameter,0.22 NA, FC/PC connectors, 1 meter length
-   - https://www.lfiber.com/uv-vis-nir-fiber-combiner-optical-power/
-   
-- **Laser Drivers:** 
-   - Laser Diode Driver GCF-D-R500A
-   - Laser Diode Driver GCF-D-R800A
-   - Laser Diode Driver GCF-D-R4000A
-   - http://www.micost-optotech.com/products.asp?did=75
-   
-- **Laser Diodes:**
-   - 405nm/300mW 105um Fiber Coupling Diode
-   - 488nm/55mW 105um Fiber Coupling Diode
-   - 638nm/700mW 105um Fiber Coupling Diode
-   - 638nm/185mW 4um Fiber Coupling Diode
-   - [supplier link]
-
-- **12V Power Supply**
-
-### Optomechanics 
-3D models can be found in: Fiber-Coupled-Laser-Illumination/3D Models/
-
-- **Driver Mounting Plate:** Plastic mounting plate to fix the drivers to the optic table.
-
-![This is an image](Images/Drivers.png)
-
-- **12V Power Supply Mounting Plate:**  Plastic mounting plate to fix the power supply to the optic table.
-
- ![This is an image](Images/powersupply.png)
- 
- - **Fiber Trays:** Plastic trays to protect optic fiber from damage. This mountage uses four single trays and one double tray.
- 
-## Configurations
+The modular fiber-coupled laser illumination is a free and open-source system that features lasers with various wavelengths coupled in a single optic fiber, enabling easy digital selection without any structural modifications. The system is modular, allowing individual parts to be repurposed and improved in the open-source hardware sense, and easily combined, exchanged, or used on their own.
 
 ## Usage
 
+### Instructions
+
+* [Assembly instructions]()
+    * [Parts list]()
+    * [Firmware installation]()
+* Usage instructions
+	* [Controller usage]()
+
+This project is documented with GitBuilding - an OpenSource project for documenting hardware projects. For more information on the GitBuilding project, or how
+to install GitBuilding please see the [GitBuilding website](http://gitbuilding.io)
+
+## Design files and source code
+
+* [3D printed parts]()
+* [Electronics]()
+* [Firmware]()
+
+## How do I edit the documentation?
+
+To edit the documentation you do not need to install anything, the documentation files can
+be opened in a plain text editor such as Windows Notepad, Notepad++, gedit, VS Code, etc.
+We recommend installing GitBuilding to preview any changes to the documentation.
+GitBuilding also comes with a browser-based editor that has a live display of the final HTML documentation.
+
+If you have ever used [markdown](https://www.markdownguide.org/basic-syntax/) you will
+notice that the files you are editing are markdown files. GitBuilding uses an extended
+markdown syntax (that we call BuildUp). This allows you to keep track of parts in the
+documentation. More detailed documentation is available on the
+[GitBuilding website](https://gitbuilding.io). There is also additional
+[syntax for configuration](https://gitbuilding.io/syntax/buildconfsyntax), and for
+[part libraries](https://gitbuilding.io/syntax/builduplibrary/).
+
 ## Contribute
 
-As an open collaborative project, we warmly welcome your participation. Please feel free to leave comments, provide input, and make contributions. If you have any suggestions to improve it or add any additional functions make a pull-request or [open an issue](https://github.com/LIBREhub/fiber-coupled-laser-illumination/issues/new).
+You're free to fork the project and enhance it. If you have any suggestions to improve it or add any additional functions make a pull-request or [open an issue](https://github.com/LIBREhub/fiber-coupled-laser-illumination/issues/new).
 For interactions in our team and with the community applies the [GOSH Code of Conduct](https://openhardware.science/gosh-2017/gosh-code-of-conduct/).
-
-## References
-
-- Li, H., Krishnamurthy, D., Li, E., Vyas, P., Akireddy, N., Chai, C., & Prakash, M. (2020). Squid: Simplifying Quantitative Imaging Platform Development and Deployment. BioRxiv. https://doi.org/10.1101/2020.12.28.424613 
-- P. (s. f.). GitHub - prakashlab/octopi-driver-board: Driver electronics for the Octopi and Squid microscope families. GitHub. https://github.com/prakashlab/octopi-driver-board
 
 ## License
 
-[CERN OHL 2W](LICENSE) © Vicente Parot. This project is Open Source Hardware - please acknowledge us when using the hardware or sharing modifications.
-
+[CERN OHL 2W](LICENSE) © Francisco Martinez, Matías Hurtado-Labarca, Pierre Padilla-Huamantinco, and Vicente Parot. This project is Open Source Hardware - please acknowledge us when using the hardware or sharing modifications.
