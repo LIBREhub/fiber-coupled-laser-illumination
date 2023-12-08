@@ -17,25 +17,26 @@ We recommend the following printer settings:
 |Setting        |Value          |
 |------------   |--             |
 |Material       |PLA            |
+|Material Colour       |Black            |
 |Material Temperature |Recommended by the PLA brand|
 |Layer height   |0.2mm or less  |
 |Infill         |Printer default or more|
 |Brim           |Recommended for all parts|
 |Slice gap closing radius |0.001mm |
 
-Test whether your printer can print the pieces for this station or other open-source designs. Download and print the [leg test] file. This will only use about [5 grams of PLA][PLA filament]{qty: 5g}.
+Test whether your printer can print the pieces for this station or other open-source designs. Download and print the [leg test] file. This will only use about [5 grams of PLA][PLA filament].
 
 The result should look like this (this has been printed with a brim):
 
 ![](images/just_leg_test.jpg)
 
-As a general rule, strength is more important than surface finish, so very thin layers (less than 0.15mm or so) are unlikely to result in a station that performs any better, though it may approve the appearance.
+As a general rule, strength is more important than surface finish, so very thin layers (less than 0.15mm or so) are unlikely to result in a station that performs any better, though it may improve the appearance.
 
 ## Printing {pagestep}
 
-Now you have tested your [3D printer][RepRap-style printer] and [filament][PLA filament]{qty: 200g, note:"Of any colour you want"} you can print the following parts:
+Now you have tested your [3D printer][RepRap-style printer] and [filament][PLA filament]{qty:200gr} you can print the following parts:
 
-You can [download all the STLs as a single zipfile]().
+You can download all the STLs as a single zipfile.
 
 ## Clean-up of printed parts {pagestep}
 

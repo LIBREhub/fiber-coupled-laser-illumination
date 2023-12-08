@@ -4,7 +4,16 @@ Authors:
   - Matías Hurtado-Labarca
   - Pierre Padilla-Huamantinco
   - Vicente Parot
+CustomCategories:
+  tool:
+    DisplayName: Tool
+    Reuse: false
+  material:
+    Reuse: false
+    DisplayName: Material
+DefaultCategory: part
 Email: librehub@uc.cl
+HoverColor: '#555555'
 LandingPage: index.md
 License: CERN-OHL-W-2.0
 Navigation:
@@ -21,6 +30,5 @@ Navigation:
     Title: Troubleshooting
   - Link: use-cases.md
     Title: Use cases
-HoverColor: '#555555'
-PrimaryColor: '#f1502f'
+PrimaryColor: '#2D3D5B'
 SecondaryColor: '#cccccc'
