@@ -1,7 +1,5 @@
 # Módulo control de temperatura
 
->i **Nota:** Este sitio esta en construcción.
-
 ## Acomplamiento disipador láser con la tapa {pagestep}
 
 Posicionar y acoplar disipador de láser en la tapa sin torcer fibra para evitar daños.
