@@ -1,0 +1,69 @@
+# Módulo óptico
+
+>! **Cuidado** Utilizar guantes de nitrilo para la manipulación de todas las piezas del módulo óptico. *Tener especial cuidado con los lentes y la fibra láser.*
+
+## Lente óptico {pagestep}
+
+Calzar anillo interno 1 en herramienta OP. Luego, introducir en tubo óptico y girar hasta una profundidad de 6mm.
+
+![](images/anillo1-OP.jpg)
+![](images/anillo1-OP_1.jpg)
+![](images/tubo-OP.jpg)
+
+Insertar lente en tubo óptico.
+
+![](images/tubo-lente.jpg)
+![](images/tubo-lente_1.jpg)
+
+Calzar anillo interno 2 en herramienta OP, introducir en tubo óptico y girar hasta el tope.
+
+![](images/anillo2-OP.jpg)
+![](images/tubo-OP.jpg)
+![](images/tubo-lente-anillos.jpg)
+
+## Tubos ópticos {pagestep}
+
+Para este paso, debe disponer del tubo óptico con su lente acoplado, ensamblado en el paso anterior.
+
+Calzar ambos tubos y girar hasta el final. 
+
+![](images/tubo-lente-anillos-tubo.jpg)
+![](images/tubo-lente-anillos-tubo_1.jpg)  
+
+## Base {pagestep}
+
+Para este paso, debe disponer del tubo óptico extendido, ensamblado en el paso anterior.
+
+Poner abrazaderas en superficie horizontal a una distancia de 25 mm entre ambas partes. Luego, ensamblar tubo óptico a ambas abrazaderas presionando hacia abajo.
+
+![](images/tubo-extendido-abrazadera.jpg)
+![](images/tubo-extendido-abrazadera_1.jpg)  
+
+## Adaptador de fibra láser {pagestep}
+
+Para este paso, debe disponer del tubo óptico extendido con las abrazaderas, ensamblado en el paso anterior.
+
+Calzar adaptador de fibra láser y girar hasta el final.
+
+![](images/tubo-extendido-adaptador-fibra.jpg)
+![](images/tubo-extendido-adaptador-fibra_1.jpg)  
+
+Retirar tapa de láser, ensamblar láser con adaptador de fibra láser y girar adaptador láser hasta el final.
+
+>! **Cuidado** No tocar fibra óptica. Manipular componentes como se muestra en las imágenes.
+
+![](images/tubo-extendido-adaptador-fibra_2.jpg)
+![](images/tubo-extendido-adaptador-fibra_3.jpg)  
+![](images/tubo-extendido-adaptador-fibra_4.jpg)
+![](images/tubo-extendido-adaptador-fibra_5.jpg)
+
+El ensamblaje debe verse como en la imagen inferior.
+
+![](images/tubo-extendido-adaptador-fibra_6.jpg)
+
+## Difusor {pagestep}
+
+Calzar difusor en herramienta OP e introducir en tubo óptico. Girar hasta el final del tubo.
+
+![](images/difusor.jpg)
+![](images/tubo-OP.jpg)

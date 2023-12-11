@@ -1,7 +1,7 @@
 # Modular fiber-coupled laser illumination
 
-The modular fiber-coupled laser illumination is a free and open-source system that features lasers with various wavelengths coupled in a single optic fiber, enabling easy digital selection without any structural modifications. The system is modular, allowing individual parts to be repurposed and improved in the open-source hardware sense, and easily combined, exchanged, or used on their own.
+El sistema modular de iluminación láser acoplada a fibra es un dispositivo libre y de fuente abierta. Este sistema puede utilizar láseres con varias longitudes de onda, acopladas en una sola fibra óptica, lo que permite una fácil selección digital sin modificaciones estructurales. Su diseño modular permite reutilizar y mejorar piezas individuales, combinarlas, intercambiarlas o utilizarlas fácilmente por sí solas.
 
->i **Please Note:** This site is under construction.
+>i **Nota:** Este sitio esta en construcción.
 
-Find out more about this platform and other open-source hardware for bioimaging on the [LIBRE hub website](https://librehub.github.io/).
+Para aprender más sobre este sistema y otras tecnologías libres para bioimágenes, te invitamos a visitar la [página web de LIBRE hub](https://librehub.github.io/).

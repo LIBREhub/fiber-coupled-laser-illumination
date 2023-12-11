@@ -19,16 +19,22 @@ License: CERN-OHL-W-2.0
 Navigation:
   - Link: assembly.md
     SubNavigation:
-      - Link: printing.md
-        Title: Print the plastic parts
-      - Link: laser-cutting.md
-        Title: Laser cut the acrylic parts
-    Title: Assembly
-  - Link: usage.md
-    Title: Usage
-  - Link: troubleshooting.md
-    Title: Troubleshooting
-  - Link: use-cases.md
-    Title: Use cases
+      # - Link: printing.md
+      #  Title: Print the plastic parts
+      # - Link: laser-cutting.md
+      #  Title: Laser cut the acrylic parts
+      - Link: sistema-optico.md
+        Title: Módulo óptico
+      - Link: control-temperatura.md
+        Title: Módulo control de temperatura
+      - Link: interfaz-usuario.md
+        Title: Módulo interfaz de usuario
+    Title: Ensamblaje
+  # - Link: usage.md
+  #  Title: Uso de sistema
+  # - Link: troubleshooting.md
+  #  Title: Solución de problemas
+  # - Link: use-cases.md
+  #  Title: Casos de uso
 PrimaryColor: '#2D3D5B'
 SecondaryColor: '#cccccc'
