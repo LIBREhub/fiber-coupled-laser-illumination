@@ -1,0 +1,41 @@
+Affiliation: Latin American Hub for Bioimaging Through Open Hardware (LIBRE hub)
+Authors:
+  - Francisco Martinez
+  - Matías Hurtado-Labarca
+  - Pierre Padilla-Huamantinco
+  - Vicente Parot
+CustomCategories:
+  material:
+    DisplayName: Material
+    Reuse: false
+  tool:
+    DisplayName: Tool
+    Reuse: false
+DefaultCategory: part
+Email: librehub@uc.cl
+HoverColor: '#555555'
+LandingPage: index.md
+License: CERN-OHL-W-2.0
+Navigation:
+  - Link: assembly.md
+    SubNavigation:
+      - Link: sistema-optico.md
+        Title: Módulo óptico
+      - Link: control-temperatura.md
+        Title: Módulo control de temperatura
+      - Link: interfaz-usuario.md
+        Title: Módulo interfaz de usuario
+    Title: Ensamblaje
+  - Link: circuito.md
+    SubNavigation:
+      - Link: circuitoR.md
+        Title: Láser Rojo
+      - Link: circuitoV.md
+        Title: Láser Violeta
+      - Link: circuitoB.md
+        Title: Láser Azul
+    Title: Circuito Limitador de Corriente
+  - Link: printing.md
+    Title: Impresión 3D
+PrimaryColor: '#2D3D5B'
+SecondaryColor: '#cccccc'
