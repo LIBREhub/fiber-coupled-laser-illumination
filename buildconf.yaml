@@ -5,12 +5,12 @@ Authors:
   - Pierre Padilla-Huamantinco
   - Vicente Parot
 CustomCategories:
+  material:
+    DisplayName: Material
+    Reuse: false
   tool:
     DisplayName: Tool
     Reuse: false
-  material:
-    Reuse: false
-    DisplayName: Material
 DefaultCategory: part
 Email: librehub@uc.cl
 HoverColor: '#555555'
@@ -19,10 +19,6 @@ License: CERN-OHL-W-2.0
 Navigation:
   - Link: assembly.md
     SubNavigation:
-      # - Link: printing.md
-      #  Title: Print the plastic parts
-      # - Link: laser-cutting.md
-      #  Title: Laser cut the acrylic parts
       - Link: sistema-optico.md
         Title: Módulo óptico
       - Link: control-temperatura.md
@@ -30,11 +26,16 @@ Navigation:
       - Link: interfaz-usuario.md
         Title: Módulo interfaz de usuario
     Title: Ensamblaje
-  # - Link: usage.md
-  #  Title: Uso de sistema
-  # - Link: troubleshooting.md
-  #  Title: Solución de problemas
-  # - Link: use-cases.md
-  #  Title: Casos de uso
+  - Link: circuito.md
+    SubNavigation:
+      - Link: circuitoR.md
+        Title: Láser Rojo
+      - Link: circuitoV.md
+        Title: Láser Violeta
+      - Link: circuitoB.md
+        Title: Láser Azul
+    Title: Circuito Limitador de Corriente
+  - Link: printing.md
+    Title: Impresión 3D
 PrimaryColor: '#2D3D5B'
 SecondaryColor: '#cccccc'

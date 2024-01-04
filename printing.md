@@ -1,54 +1,34 @@
-# Print the plastic parts
+# Impresión 3D de partes plásticas 
 
-{{BOM}}
 
-[PLA filament]: parts/materials/pla_filament.md "{cat:material}"
-[RepRap-style printer]: parts/tools/rep-rap.md "{cat:tool}"
-[Precision wire cutter]: parts/tools/precision-wire-cutters.md "{cat:tool}"
-[Utility knife]: parts/tools/utility-knife.md "{cat:tool}"
-[leg test]:models/leg_test.stl "{previewpage}"
+## Seteo de los parámetros de impresión {pagestep}
 
-## Set your printer settings {pagestep}
+Todas las piezas se pueden imprimir usando filamento PLA en alguna de las impresoras RepRap-style como la Prusa i3 MK3S.
 
-Almost all station parts can be printed out of [PLA filament] on most [RepRap-style printers][RepRap-style printer]{qty:1}.
+Se recomiendan los siguientes parámetros para la impresión: 
 
-We recommend the following printer settings:
-
-|Setting        |Value          |
+|Configuración        |Valor         |
 |------------   |--             |
 |Material       |PLA            |
-|Material Colour       |Black            |
-|Material Temperature |Recommended by the PLA brand|
-|Layer height   |0.2mm or less  |
-|Infill         |Printer default or more|
-|Brim           |Recommended for all parts|
-|Slice gap closing radius |0.001mm |
+|Color      |Negro         |
+|Temperatura |Recomendada para PLA|
+|Altura de capa   |0.2mm, 0.1mm (para piezas con hilo)  |
 
-Test whether your printer can print the pieces for this station or other open-source designs. Download and print the [leg test] file. This will only use about [5 grams of PLA][PLA filament].
+## Impresión 3D {pagestep}
 
-The result should look like this (this has been printed with a brim):
+Puedes descargar todos los modelos en formato STL en un unico archivo zipfile [modelos 3D](docu/models.zip).
 
-![](images/just_leg_test.jpg)
+## Limpieza de piezas impresas {pagestep}
 
-As a general rule, strength is more important than surface finish, so very thin layers (less than 0.15mm or so) are unlikely to result in a station that performs any better, though it may improve the appearance.
+>!! **Tenga cuidado al quitar los bordes:** Para evitar lesiones, primero retire la mayor parte del borde sin un cuchillo. Retire el borde restante con una acción de pelado como se describe a continuación.
 
-## Printing {pagestep}
+Retire con cuidado el borde de impresión de todas las piezas. 
 
-Now you have tested your [3D printer][RepRap-style printer] and [filament][PLA filament]{qty:200gr} you can print the following parts:
-
-You can download all the STLs as a single zipfile.
-
-## Clean-up of printed parts {pagestep}
-
->!! **Be careful when removing brim:** To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.
-
-Carefully remove the printing brim from all parts. To remove brim:
-
-1. Use [precision wire cutters][Precision wire cutter]{qty: 1} to remove most of the brim from the part.
-2. Clean up the remaining brim with a [utility knife][Utility knife]{qty: 1, note: "Not a scalpel!"}:
-    * Hold the knife in your dominant hand with 4 fingers curled around the handle, leaving your thumb free.
-    * Hold the part in your other hand, as far away from the surface, to be cut as possible.
-    * Support the part with the thumb of your dominant hand.
-    * Place the blade on the surface to be cut, and carefully close your dominant hand, moving the blade, under control, towards your thumb.
+1. Utilice cortadores de alambre de precisión para quitar la mayor parte del borde de la pieza.
+2. Limpie el borde restante con una navaja:
+     * Sostenga el cuchillo en tu mano dominante con 4 dedos enrollados alrededor del mango, dejando el pulgar libre.
+     * Sostenga la pieza con la otra mano, lo más alejada posible de la superficie a cortar.
+     *Apoya la parte con el pulgar de tu mano dominante.
+     * Colocar la hoja sobre la superficie a cortar, y cerrar con cuidado la mano dominante, moviendo la hoja, bajo control, hacia el pulgar.
 
 ![](images/BrimRemoval.jpg)
