@@ -62,30 +62,32 @@
         Ensamblaje
     </a>
     </li>
-<li class="not-active">
-    <a class="not-active" href="./circuito.html">
-        Circuito Limitador de Corriente
-    </a>
-    </li>
-<li class="active">
-    <a class="active" href="./printing.html">
-        Impresión 3D
-    </a>
-    </li>
 
                 </ul>
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="impresion-3d-de-partes-plasticas">Impresión 3D de partes plásticas</h1>
-<h2 class="page-step" id="seteo-de-los-parmetros-de-impresin">Step 1: Seteo de los parámetros de impresión</h2>
-<p>Todas las piezas se pueden imprimir usando filamento PLA en alguna de las impresoras RepRap-style como la Prusa i3 MK3S.</p>
-<p>Se recomiendan los siguientes parámetros para la impresión: </p>
+    <h1 id="print-the-plastic-parts">Print the plastic parts</h1>
+<div class="pagebom">
+<h3 id="tool">Tool</h3>
+<ul>
+<li>1 <a Class="bom" href="parts/tools/precision-wire-cutters.html">Precision wire cutter</a> </li>
+<li>1 <a Class="bom" href="parts/tools/rep-rap.html">RepRap-style printer</a> </li>
+<li>1 <a Class="bom" href="parts/tools/utility-knife.html">Utility knife</a>    - Not a scalpel!</li>
+</ul>
+<h3 id="material">Material</h3>
+<ul>
+<li>200 gr of <a Class="bom" href="parts/materials/pla_filament.html">PLA filament</a> </li>
+</ul>
+</div>
+<h2 class="page-step" id="set-your-printer-settings">Step 1: Set your printer settings</h2>
+<p>Almost all station parts can be printed out of <a href="parts/materials/pla_filament.html">PLA filament</a> on most <a href="parts/tools/rep-rap.html">RepRap-style printers</a>.</p>
+<p>We recommend the following printer settings:</p>
 <table>
 <thead>
 <tr>
-<th>Configuración</th>
-<th>Valor</th>
+<th>Setting</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
@@ -94,33 +96,50 @@
 <td>PLA</td>
 </tr>
 <tr>
-<td>Color</td>
-<td>Negro</td>
+<td>Material Colour</td>
+<td>Black</td>
 </tr>
 <tr>
-<td>Temperatura</td>
-<td>Recomendada para PLA</td>
+<td>Material Temperature</td>
+<td>Recommended by the PLA brand</td>
 </tr>
 <tr>
-<td>Altura de capa</td>
-<td>0.2mm, 0.1mm (para piezas con hilo)</td>
+<td>Layer height</td>
+<td>0.2mm or less</td>
+</tr>
+<tr>
+<td>Infill</td>
+<td>Printer default or more</td>
+</tr>
+<tr>
+<td>Brim</td>
+<td>Recommended for all parts</td>
+</tr>
+<tr>
+<td>Slice gap closing radius</td>
+<td>0.001mm</td>
 </tr>
 </tbody>
 </table>
-<h2 class="page-step" id="impresin-3d">Step 2: Impresión 3D</h2>
-<p>Puedes descargar todos los modelos en formato STL en un unico archivo zipfile <a href="docu/models.zip" title="">modelos 3D</a>.</p>
-<h2 class="page-step" id="limpieza-de-piezas-impresas">Step 3: Limpieza de piezas impresas</h2>
+<p>Test whether your printer can print the pieces for this station or other open-source designs. Download and print the <a href="models/leg_test.html">leg test</a> file. This will only use about <a href="parts/materials/pla_filament.html">5 grams of PLA</a>.</p>
+<p>The result should look like this (this has been printed with a brim):</p>
+<p><img alt="" src="images/just_leg_test.jpg" title="" /></p>
+<p>As a general rule, strength is more important than surface finish, so very thin layers (less than 0.15mm or so) are unlikely to result in a station that performs any better, though it may improve the appearance.</p>
+<h2 class="page-step" id="printing">Step 2: Printing</h2>
+<p>Now you have tested your <a href="parts/tools/rep-rap.html">3D printer</a> and <a href="parts/materials/pla_filament.html">filament</a> you can print the following parts:</p>
+<p>You can download all the STLs as a single zipfile.</p>
+<h2 class="page-step" id="clean-up-of-printed-parts">Step 3: Clean-up of printed parts</h2>
 <div class="warning-block">
-<p><strong>Tenga cuidado al quitar los bordes:</strong> Para evitar lesiones, primero retire la mayor parte del borde sin un cuchillo. Retire el borde restante con una acción de pelado como se describe a continuación.</p>
+<p><strong>Be careful when removing brim:</strong> To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.</p>
 </div>
-<p>Retire con cuidado el borde de impresión de todas las piezas. </p>
+<p>Carefully remove the printing brim from all parts. To remove brim:</p>
 <ol>
-<li>Utilice cortadores de alambre de precisión para quitar la mayor parte del borde de la pieza.</li>
-<li>Limpie el borde restante con una navaja:<ul>
-<li>Sostenga el cuchillo en tu mano dominante con 4 dedos enrollados alrededor del mango, dejando el pulgar libre.</li>
-<li>Sostenga la pieza con la otra mano, lo más alejada posible de la superficie a cortar.
- *Apoya la parte con el pulgar de tu mano dominante.</li>
-<li>Colocar la hoja sobre la superficie a cortar, y cerrar con cuidado la mano dominante, moviendo la hoja, bajo control, hacia el pulgar.</li>
+<li>Use <a href="parts/tools/precision-wire-cutters.html">precision wire cutters</a> to remove most of the brim from the part.</li>
+<li>Clean up the remaining brim with a <a href="parts/tools/utility-knife.html">utility knife</a>:<ul>
+<li>Hold the knife in your dominant hand with 4 fingers curled around the handle, leaving your thumb free.</li>
+<li>Hold the part in your other hand, as far away from the surface, to be cut as possible.</li>
+<li>Support the part with the thumb of your dominant hand.</li>
+<li>Place the blade on the surface to be cut, and carefully close your dominant hand, moving the blade, under control, towards your thumb.</li>
 </ul>
 </li>
 </ol>
