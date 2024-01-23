@@ -59,34 +59,34 @@
 </li>
 <li class="not-active">
     <a class="not-active" href="./assembly.html">
-        Ensamblaje
+        Assembly
     </a>
     </li>
 <li class="active">
     <a class="active" href="./circuito.html">
-        Circuito Limitador de Corriente
+        Current Limiting Circuit
     </a>
         <ul class="sub-nav-list">
                 <li>
             <a class="not-active" href="./circuitoR.html">
-                Láser Rojo
+                Red Laser
             </a>
         </li>
                 <li>
             <a class="not-active" href="./circuitoV.html">
-                Láser Violeta
+                Violet Laser
             </a>
         </li>
                 <li>
             <a class="not-active" href="./circuitoB.html">
-                Láser Azul
+                Blue Laser
             </a>
         </li>
             </ul>
     </li>
 <li class="not-active">
     <a class="not-active" href="./printing.html">
-        Impresión 3D
+        3D Prints Parts
     </a>
     </li>
 
@@ -94,17 +94,17 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="circuito-limitador-de-corriente">Circuito Limitador de Corriente</h1>
-<p>Se diseña tarjeta electrónica que limita la corriente que entrega la fuente de corriente ajustable (laser driver) por 2 motivos.</p>
-<p>1.- Limitar potencia óptica de láser a 500 mW correspondiente a <strong>class 3B</strong> según norma internacional <a href="docu/2019120664752977.pdf" title="">ANSI Z136.1</a> "<em>Safe Use Of Lasers</em>", tal que se disminuyan los riesgos de manipulación con lásers de mayor potencia óptica. </p>
-<p>2.- Evitar dañar láser cuya corriente máxima de operación sea menor a la que entrega la fuente de corriente ajustable (láser driver)</p>
-<p>La topología que se utilizo es la siguiente:</p>
+    <h1 id="current-limiting-circuit">Current Limiting Circuit</h1>
+<p>An electronic card is designed that limits the current delivered by the adjustable current source (laser driver) for 2 reasons.</p>
+<p>1.- Limit laser optical power to 300 mW corresponding to <strong>class 3B</strong> according to  <a href="docu/2019120664752977.pdf" title="">ANSI Z136.1</a> international standard. "<em>Safe Use Of Lasers</em>", such that the risks of manipulation with lasers of higher optical power are reduced.</p>
+<p>2.- Avoid damaging lasers whose maximum operating current is less than that delivered by the adjustable current source (laser driver).</p>
+<p>The topology used is the following:</p>
 <p><img alt="" src="images/current limiter.png" title="" /></p>
 <ul>
-<li>Vin corresponde a pin + de la salida LD que alimenta al láser desde la fuente de corriente ajustable (láser driver) </li>
-<li>Iout se conecta al cátodo del láser  </li>
-<li>La tierra del láser driver (pin - LD) se conecta directamente al ánodo del láser </li>
-<li>R1 se calcula de acuerdo a la corriente que se desea limitar.</li>
+<li>Vin corresponds to pin + of the LD output that powers the laser from the adjustable current source (laser driver)</li>
+<li>Iout connects to the laser cathode</li>
+<li>The ground of the laser driver (pin - LD) connects directly to the laser anode</li>
+<li>R1 is calculated according to the current to be limited.</li>
 </ul>
     </div>
 </div>
