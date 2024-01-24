@@ -1,87 +1,96 @@
-[anillo interno]: models/anillo.stl "{previewpage}"
-[herramienta OP]: models/Herramienta.stl  "{previewpage}"
-[tubo óptico]: models/tubo.stl  "{previewpage}"
-[abrazaderas]: models/abrazadera.stl "{previewpage}"
-[adaptador de fibra láser]: models/adaptadorfibra.stl "{previewpage}"
-[difusor]: models/Difusor.stl "{previewpage}"
-[sujetadores]: models/sujetador.stl "{previewpage}"
+[inner ring]: models/anillo.stl "{previewpage}"
+[OP tool]: models/Herramienta.stl  "{previewpage}"
+[optical tube]: models/tubo.stl  "{previewpage}"
+[clamps]: models/abrazadera.stl "{previewpage}"
+[laser fiber adapter]: models/adaptadorfibra.stl "{previewpage}"
+[diffuser]: models/Difusor.stl "{previewpage}"
+[fasteners]: models/sujetador.stl "{previewpage}"
+[adjustable lens tube]: models/Tubolente.stl "{previewpage}"
 
-# Módulo óptico
+# Optical Module
 
->! **Cuidado** Utilizar guantes de nitrilo para la manipulación de todas las piezas del módulo óptico. *Tener especial cuidado con los lentes y la fibra láser.*
+>! **Warning** Use nitrile gloves when handling all parts of the optical module. *Take special care with the lenses and the laser fiber.*
 
-## Lente óptico {pagestep}
+## Optical Lens {pagestep}
 
-Calzar [anillo interno] en [herramienta OP]. Luego, introducir en [tubo óptico] y girar hasta una profundidad mínima de 6mm para posteriormente introducir lente y segundo anillo interno.
+Shim [inner ring] into [OP tool]. Then, insert into [optical tube] and rotate to a minimum depth of 6mm to later insert lens and second internal ring.
 
 ![](images/anillo1-OP.jpg)
 ![](images/anillo1-OP_1.jpg)
 ![](images/tubo-OP.jpg)
 
-Insertar lente en [tubo óptico].
+Insert lens into [optical tube].
 
 ![](images/tubo-lente.jpg)
 ![](images/tubo-lente_1.jpg)
 
-Calzar segundo [anillo interno] en [herramienta OP], introducir en [tubo óptico] y girar hasta el tope.
+Fit second [inner ring] on [OP tool], insert into [optical tube] and turn until it stops.
 
 ![](images/anillo2-OP.jpg)
 ![](images/tubo-OP.jpg)
 ![](images/tubo-lente-anillos.jpg)
 
-## Tubos ópticos {pagestep}
+## Optical tubes {pagestep}
 
-Para este paso, debe disponer del [tubo óptico] con su lente acoplado, ensamblado en el paso anterior.
+For this step, you must have the [optical tube] with its attached lens, assembled in the previous step.
 
-Calzar ambos tubos y girar hasta el final. 
+Fit both tubes and turn until the end.
 
 ![](images/tubo-lente-anillos-tubo.jpg)
 ![](images/tubo-lente-anillos-tubo_1.jpg)  
 
 ## Base {pagestep}
 
-Para este paso, debe disponer del tubo óptico extendido, ensamblado en el paso anterior.
+For this step, you must have the extended optical tube, assembled in the previous step.
 
-Poner [abrazaderas] en superficie horizontal a una distancia de 25 mm entre ambas partes. Luego, ensamblar tubo óptico a ambas [abrazaderas] presionando hacia abajo.
+Place [clamps] on a horizontal surface at a distance of 25 mm between both parts. Then, assemble optical tube to both [clamps] by pressing down.
 
 ![](images/tubo-extendido-abrazadera.jpg)
 ![](images/tubo-extendido-abrazadera_1.jpg)  
 
-## Adaptador de fibra láser {pagestep}
+## Fiber laser adapter {pagestep}
 
-Para este paso, debe disponer del tubo óptico extendido con las abrazaderas, ensamblado en el paso anterior.
+For this step, you must have the extended optical tube with the clamps, assembled in the previous step.
 
-Calzar [adaptador de fibra láser] y girar hasta el final.
+Fit [laser fiber adapter] and turn all the way.
 
 ![](images/tubo-extendido-adaptador-fibra.jpg)
 ![](images/tubo-extendido-adaptador-fibra_1.jpg)  
 
-Retirar tapa de láser, ensamblar láser con [adaptador de fibra láser] y girar adaptador láser hasta el final.
+Remove laser cap, assemble laser with [fiber laser adapter] and turn laser adapter all the way.
 
->! **Cuidado** No tocar fibra óptica. Manipular componentes como se muestra en las imágenes.
+>! **Warning** Do not touch fiber optics. Manipulate components as shown in the images.
 
 ![](images/tubo-extendido-adaptador-fibra_2.jpg)
 ![](images/tubo-extendido-adaptador-fibra_3.jpg)  
 ![](images/tubo-extendido-adaptador-fibra_4.jpg)
 ![](images/tubo-extendido-adaptador-fibra_5.jpg)
 
-El ensamblaje debe verse como en la imagen inferior.
+The assembly should look like the image below.
 
 ![](images/tubo-extendido-adaptador-fibra_6.jpg)
 
-## Superficie para apuntar el láser {pagestep}
+## Laser aiming surface {pagestep}
 
-Por protocolo de seguridad óptica se recomienda utilizar una superficie plana y negra para apuntar el láser. En el kit se incluyen 2 [sujetadores] y un trozo de cartón negro para este propósito. 
+For optical safety protocol, it is recommended to use a flat, black surface to point the laser. Included in the kit are 2 [fasteners] and a piece of black cardboard for this purpose.
+
 
 ![](images/superficie.jpg)
 
 
-## Difusor {pagestep}
+## Diffuser {pagestep}
 
-Para realizar ensayos ópticos que requieran uso de [difusor], siga las siguientes instrucciones: 
+To perform optical tests that require the use of [diffuser], follow the following instructions:
 
-* Pegue un trozo de cinta adhesiva en el [difusor] tal que se interfiera el paso de luz a través de este mismo. 
-* Calzar [difusor] en [herramienta OP] e introducir en tubo óptico por la sección más próxima al [adaptador de fibra láser]. 
+* Stick a piece of adhesive tape on the [diffuser] so that the passage of light through it is interfered with.
+* Fit [diffuser] into [OP tool] and insert the optical tube through the section closest to the [laser fiber adapter].
 
 ![](images/difusor.jpg)
 ![](images/tubo-OP.jpg)
+
+## Adjustable Lens Tube {pagestep}
+
+For activity that requires adjusting the position of the lens depending on its focal length, you could replace and use the [adjustable lens tube] part instead of one of the optical tubes.
+
+![](images/tubolenter.png)
+![](images/tubolente2r.png)

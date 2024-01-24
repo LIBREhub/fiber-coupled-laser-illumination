@@ -20,22 +20,25 @@ Navigation:
   - Link: assembly.md
     SubNavigation:
       - Link: sistema-optico.md
-        Title: Módulo óptico
+        Title: Optical module
       - Link: control-temperatura.md
-        Title: Módulo control de temperatura
+        Title: Temperature control module
       - Link: interfaz-usuario.md
-        Title: Módulo interfaz de usuario
-    Title: Ensamblaje
+        Title: User interface module
+    Title: Assembly
   - Link: circuito.md
     SubNavigation:
       - Link: circuitoR.md
-        Title: Láser Rojo
+        Title: Red Laser
       - Link: circuitoV.md
-        Title: Láser Violeta
+        Title: Violet Laser
       - Link: circuitoB.md
-        Title: Láser Azul
-    Title: Circuito Limitador de Corriente
+        Title: Blue Laser
+    Title: Current Limiting Circuit
   - Link: printing.md
-    Title: Impresión 3D
+    Title: 3D Printing Parts
+    SubNavigation:
+      - Link: rosca.md
+        Title: Thread 1.035"-40.0 TPI
 PrimaryColor: '#2D3D5B'
 SecondaryColor: '#cccccc'

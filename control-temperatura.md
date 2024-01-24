@@ -1,40 +1,40 @@
-[tapa]: models/ventiladorb.stl "{previewpage}"
+[cover]: models/ventiladorb.stl "{previewpage}"
 [casing]: models/ventiladort.stl "{previewpage}"
 
-# Módulo control de temperatura
+# Temperature control module
 
-## Acomplamiento disipador láser con la tapa {pagestep}
+## Laser dissipator coupling with cover {pagestep}
 
-Posicionar y acoplar disipador de láser en la [tapa] sin torcer fibra para evitar daños.
+Position and attach the laser heatsink to the [cover] without twisting the fiber to avoid damage.
 
-## Pegado de cinta térmica {pagestep}
+## Thermal tape gluing {pagestep}
 
-Pegar cinta térmica adhesiva en disipador de láser acoplado en la [tapa].
+Paste adhesive thermal tape on laser heatsink attached to the [cover].
 
 ![](images/disipador-laser-cinta.jpg)
 
-## Acomplamiento ventilador con casing {pagestep}
+## Fan coupling with casing {pagestep}
 
-Posicionar y acoplar el [ventilador con disipador](https://es.aliexpress.com/item/32406706193.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=21260363990&aff_fcid=8f0909942d514555be594e64ddb2260f-1704293970899-09731-_msGmWnW&tt=MG&aff_fsk=_msGmWnW&aff_platform=default&sk=_msGmWnW&aff_trace_key=8f0909942d514555be594e64ddb2260f-1704293970899-09731-_msGmWnW&shareId=21260363990&businessType=ProductDetail&platform=AE&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) en el [casing] pasando cables por ranura.  
+Position and attach the [fan with heatsink](https://es.aliexpress.com/item/32406706193.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=21260363990&aff_fcid=8f0909942d514555be594e64ddb2260f-1704293970899-09731-_msGmWnW&tt=MG&aff_fsk=_msGmWnW&aff_platform=default&sk=_msGmWnW&aff_trace_key=8f0909942d514555be594e64ddb2260f-1704293970899-09731-_msGmWnW&shareId=21260363990&businessType=ProductDetail&platform=AE&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) in the [casing] passing cables through the slot.  
 
 ![](images/venti30.jpg)
 ![](images/ventilador.jpg)
   
 >!
->! Tener cuidado de no aplastar los cables del ventilador. 
+>! **Warning** Be careful not to crush the fan cables.
 
-## Ensamblaje final {pagestep}
+## Final assembly {pagestep}
 
-Desprender capa azul de cinta térmica adherida al disipador del láser.
+Remove the blue layer of thermal tape adhered to the laser heatsink.
 
 ![](images/disipador-laser-cinta_1.jpg)
 
-Acoplar [casing] (ventilador previamente insertado) con [tapa] (disipador y cinta térmica previamente unidos)
+Attach [casing] (previously inserted fan) with [cover] (previously attached heatsink and thermal tape)
 
 ![](images/ensamble-ventilador-disipador-laser.jpg)
 ![](images/ensamble-ventilador-disipador-laser_1.jpg)
 
-Atornillar pernos M3 de 10 mm para fijar ambas partes.
+Screw 10mm M3 bolts to fix both parts.
 
 ![](images/ensamble-ventilador-disipador-laser_2.jpg)
 ![](images/ensamble-ventilador-disipador-laser_3.jpg)

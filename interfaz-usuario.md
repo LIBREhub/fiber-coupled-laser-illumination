@@ -1,119 +1,118 @@
 [panel]: models/casingt.stl "{previewpage}"
-[adaptador plástico]: models/adaptadorusb.stl "{previewpage}"
-[acrílico]: models/acrilico.stl "{previewpage}"
-[separadores]: models/patabase.stl "{previewpage}"
-[perilla 1]: models/manillac.stl "{previewpage}"
-[perilla 2]: models/manillal.stl "{previewpage}"
-[separador]: models/AdapterM2.stl "{previewpage}"
+[plastic adapter]: models/adaptadorusb.stl "{previewpage}"
+[acrylic]: models/acrilico.stl "{previewpage}"
+[spacers]: models/patabase.stl "{previewpage}"
+[knob 1]: models/manillac.stl "{previewpage}"
+[knob 2]: models/manillal.stl "{previewpage}"
+[separator]: models/AdapterM2.stl "{previewpage}"
 [S1]: models/S1.stl "{previewpage}"
 [S2]: models/S2.stl "{previewpage}"
 [S3]: models/S3.stl "{previewpage}"
 [S4]: models/S4.stl "{previewpage}"
 [S5]: models/S5.stl "{previewpage}"
-[moteado]: docu/SpeckleReduction.pdf 
-[sujetador]: models/sujetadorm.stl "{previewpage}"
+[speckle]: docu/SpeckleReduction.pdf 
+[holder]: models/sujetadorm.stl "{previewpage}"
 
-# Módulo interfaz de usuario
+# User Interface Module
 
 ## LM2596 {pagestep}
 
-Posicionar tarjeta electrónica [LM2596](https://es.aliexpress.com/item/1005005884355026.html?src=google&src=google&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=17859513307&albag=&trgt=&crea=es1005005884355026&netw=x&device=c&albpg=&albpd=es1005005884355026&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuT2EYaljYGahlmdOln5yWVvU6etmcrCXd0VNaStRu2sbJw3TMmHlawaAmkIEALw_wcB&gclsrc=aw.ds&aff_fcid=57167236473349af853ca0131f2933dd-1704235659440-03576-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=57167236473349af853ca0131f2933dd-1704235659440-03576-UneMJZVf&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) tal que la posición del potenciómetro sea la correcta, acorde a la perforación del [panel]. Atornillar usando llave allen M3 y 2 pernos M3X12.
+Position electronic card [LM2596](https://es.aliexpress.com/item/1005005884355026.html?src=google&src=google&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=17859513307&albag=&trgt=&crea=es1005005884355026&netw=x&device=c&albpg=&albpd=es1005005884355026&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuT2EYaljYGahlmdOln5yWVvU6etmcrCXd0VNaStRu2sbJw3TMmHlawaAmkIEALw_wcB&gclsrc=aw.ds&aff_fcid=57167236473349af853ca0131f2933dd-1704235659440-03576-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=57167236473349af853ca0131f2933dd-1704235659440-03576-UneMJZVf&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) such that the position of the potentiometer is correct, according to the perforation of the [panel]. Screw using M3 allen key and 2 M3X12mm bolts.
 
 ![](images/lm2596-tapa-top.jpg)
 ![](images/lm2596w.png)
 ![](images/divisor.jpg)
 
 
->i Esta tarjeta tiene soldado un divisor de tensión de tal forma que pueda entregar un voltaje regulado entre 0.4-3V. 
+>i This electronic card has a voltage divider soldered on so that it can deliver a regulated voltage between 0.4-3V.
 
-## Ajuste señuelo de carga {pagestep}
+## Fast charge decoy trigger PD/QC/AFC {pagestep}
 
-Ajuste de interruptores S1, S2, S3 en las posiciones 1, 0, 1 para que la [tarjeta electrónica morada](https://es.aliexpress.com/item/1005005545068349.html?src=google&src=google&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=17859513307&albag=&trgt=&crea=es1005005545068349&netw=x&device=c&albpg=&albpd=es1005005545068349&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuSc41kMTyFCGuZivUT3Y83JiySAkngonaXl0KXYEmAv4M42LV6ynJwaAu4yEALw_wcB&gclsrc=aw.ds&aff_fcid=b4c5e71cd4cf46939412049bbef67a0c-1704235802247-05320-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=b4c5e71cd4cf46939412049bbef67a0c-1704235802247-05320-UneMJZVf&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) entregue un voltaje de 12 V.   
+Set switches S1, S2, S3 to positions 1, 0, 1 so that the [purple electronic card](https://es.aliexpress.com/item/1005005545068349.html?src=google&src=google&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=17859513307&albag=&trgt=&crea=es1005005545068349&netw=x&device=c&albpg=&albpd=es1005005545068349&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuSc41kMTyFCGuZivUT3Y83JiySAkngonaXl0KXYEmAv4M42LV6ynJwaAu4yEALw_wcB&gclsrc=aw.ds&aff_fcid=b4c5e71cd4cf46939412049bbef67a0c-1704235802247-05320-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=b4c5e71cd4cf46939412049bbef67a0c-1704235802247-05320-UneMJZVf&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) supplies a voltage of 12V. 
 
 ![](images/senuelo carga.jpg)
 ![](images/combinaciones.jpg)
 ![](images/zoom.jpg)
 
->! La combinación de los interruptores puede variar acorde a la señalada. Para verificar por favor observe las combinaciones detalladas en la parte posterior de la tarjeta electrónica. 
+>! The configuration of the switches may vary according to the one indicated. To verify please look at the combinations detailed on the back of the electronic card.
 
 
-## Interruptores {pagestep}
+## Switches {pagestep}
 
-Introducir señuelo de carga (tarjeta electrónica morada) con interruptor previamente soldado, a través de la perforación para el interruptor del motor ubicada en el [panel]. *Este interruptor activa el [motor vibrador](https://www.google.com/url?q=http://aliexpress.com/item/32868996252.html&sa=D&source=editors&ust=1704301415884379&usg=AOvVaw0RUHXutocwyE4PJUE4tQv3)* y puede disminuir el [moteado] presente en el haz de luz del láser. 
+Insert purple electronic card with previously soldered switch, through the hole for the motor switch located in the [panel]. *This switch activates the [vibrator micromotor](https://www.google.com/url?q=http://aliexpress.com/item/32868996252.html&sa=D&source=editors&ust=1704301415884379&usg=AOvVaw0RUHXutocwyE4PJUE4tQv3)* and can decrease the [speckle] present in the laser light beam.
 
 
->i En caso de que desee utilizar el motor vibrador, lo debe acoplar al [sujetador] y este a la vez a la fibra óptica del láser para transferir las vibraciones. 
+>i If you want to use the vibrating micromotor, you must attach it to the [holder] and this at the same time to the laser's optical fiber to transfer the vibrations.
 
 ![](images/interruptores-senuelo.jpg)
 ![](images/interruptoresw.jpg)
 ![](images/interruptores-senuelo_1.jpg)
 
-Introducir el segundo interruptor a través de la perforación para el láser y presionar para fijar al [panel]. *Este interruptor activa el láser* 
+Insert the second switch through the laser hole and press to secure to [panel]. *This switch activates the laser*
 
->i Para el soldado de los interruptores por favor considere el siguiente [diagrama de conexiones eléctricas](docu/diagramaa.pdf)
+>i For soldering the switches please consider the following [electrical connection diagram](docu/diagramaa.pdf)
 
 
-## Ensamblaje de Señuelo de carga {pagestep}
+## Purple electronic board assembly {pagestep}
 
-Alinear la tarjeta electrónica morada con el [adaptador plástico] como se muestra a continuación.
+Align the purple electronic board with the [plastic adapter] as shown below.
 
 ![](images/senuelo-adaptador.jpg)
 
-Atornillar pernos M2x10 para fijar tarjeta electrónica. 
+Screw two M2x10mm bolts to fix the electronic card.
 
->i Se recomienda colocar pernos en [separador] para evitar cortocircuito. 
+>i It is recommended to place bolts on [separator] to avoid short circuit.
 
 ![](images/adaptador-tornillos.jpg)
 ![](images/senuelo-adaptador-tornillos.jpg)
 
-Insertar tuercas M3x10 y posteriormente fijar al [panel].
+Insert two M3x10mm nuts and then fix to the [panel].
 
 ![](images/senuelo-adaptador-tapa-top.jpg)
 ![](images/senuelo-adaptador-tapa-top_1.jpg)
 
-## Fijación de cable adaptador M12 {pagestep}
+## M12 adapter cable fixing {pagestep}
 
-Introducir [conector M12](https://es.aliexpress.com/item/1005005922136440.html?gatewayAdapt=glo2esp) desde el interior de la [panel] en su respectiva perforación. Posteriormente fijar la tuerca M12.
-
+Insert [M12 connector](https://es.aliexpress.com/item/1005005922136440.html?gatewayAdapt=glo2esp) from the inside of the [panel] in its respective perforation. Then fix the M12 nut.
 ![](images/cable-m12.jpg)
 ![](images/cable-m12_1.jpg)
 ![](images/cable-m12-tapa-top.jpg)
 
-## Amperímetro {pagestep}
+## Ammeter {pagestep}
 
-Introducir y presionar [amperímetro](https://es.aliexpress.com/item/1005005867205046.html?gatewayAdapt=glo2esp) en el [panel].  Fijar amperímetro con tuercas M3.
+Insert and press [ammeter](https://es.aliexpress.com/item/1005005867205046.html?gatewayAdapt=glo2esp) in the [panel]. Fix ammeter with M3 nuts.
 
 ![](images/amperimetro.jpg)
 ![](images/amperimetro-tornillos.jpg)
 
-## Fijación de circuito limitador de corriente {pagestep}
+## Fixing current limiting circuit {pagestep}
 
-Posicionar y fijar tarjeta electrónica 3x7cm en [panel] usando 4 tornillos M2x10 incluidos. Respetar orientación acorde a las siguientes imágenes.
+Position and fix the 3x7cm electronic card on [panel] using the 4 M2x10 screws included. Respect guidance according to the following images.
 
 ![](images/pcb.jpg)
 ![](images/pcb-tapa-top.jpg)
 
 
->i La tarjeta electrónica solo está incluida en los kits cuyo láser tenga una longitud de onda de 405 nm o 638 nm. Para más información ingrese al siguiente enlace [Circuito Limitador de Corriente](circuito.md) 
+>i The electronic card is only included in kits whose laser has a wavelength of 405 nm or 638 nm. For more information go to the following link [Current Limiting Circuit](circuito.md) 
 
-## Conexión de cables {pagestep}
+## Cable connection {pagestep}
 
-Conectar cables A, B, C en la misma letra según corresponda. Conectar golillas K1 y K2 en las posiciones señaladas en amperímetro. 
-Para la conexión de las golillas utilizar tuercas M3. Considerar el diagrama de conexiones eléctricas detallado a continuación: 
+Connect wires A, B, C in the same letter as appropriate. Connect terminals K1 and K2 in the positions indicated on the ammeter.
+To connect the RV2 terminals, use M3 nuts. Consider the electrical connection diagram detailed below:
 
 ![](images/diagramaa.png)
 ![](images/cables-conexion.jpg)
 
-Conectar cables 12V y FAN a tarjeta "laser driver" en puertos 1 y 5; alimentación de 12 V y ventilador respectivamente.
+Connect 12V and FAN cables to the "laser driver" card in ports 1 and 5; 12V power and fan respectively.
 
- Para la conexión del puerto 2 (LD) del "laser driver", que corresponde a la salida de la fuente de corriente ajustable que alimenta el láser. Considerar lo siguiente: 
+For connecting port 2 (LD) of the "laser driver", which corresponds to the output of the adjustable current source that powers the laser. Consider the following:
  
->i **En caso de que se incluya el circuito limitador de corriente**: Conectar puerto 2 del "laser driver" directamente a la tarjeta con el circuito limitador de corriente. Y posteriormente desde el puerto de salida del circuito limitador de corriente, conectar el pin + al amperímetro (K1) y el pin - al ánodo del láser, tal como se ilustra en diagrama eléctrico anteriormente descrito.  
+>i **If the current limiting circuit is included**: Connect port 2 of the laser driver directly to the card with the current limiting circuit. And subsequently from the output port of the current limiting circuit, connect the + pin to the ammeter (K1) and the - pin to the laser anode, as illustrated in the electrical diagram described above.
 
->i **En caso de no incluir circuito limitador de corriente**: Conectar pin + del puerto LD del "laser driver" directamente al amperímetro (K1), y el pin - al ánodo del láser. 
+>i **If current limiting circuit is not included**: Connect pin + of the LD port of the "laser driver" directly to the ammeter (K1), and pin - to the laser anode.
  
 
-A continuación, se muestran fotografías del "laser driver" incluido en kit, junto a imagen representativa de las conexiones. Las especificaciones técnicas del "laser driver" las puede encontrar en el siguiente link [Micost driver 500mA](docu/Micostdriver500mA20190819152341084108.pdf). 
+Below are photographs of the "laser driver" included in the kit, along with a representative image of the connections. The technical specifications of the "laser driver" can be found in the following link [Micost driver 500mA](docu/Micostdriver500mA20190819152341084108.pdf). 
 
 ![](images/laser-driver.jpg)
 ![](images/data1.jpg)
@@ -122,12 +121,12 @@ A continuación, se muestran fotografías del "laser driver" incluido en kit, ju
 ![](images/laser-driver-cables-conexion.jpg)
 
 >i
->i Los cables utilizados corresponden al modelo XH54 de 2 pines macho/hembra, pero se puede utilizar otro modelo que se disponga. 
+>i The cables used correspond to the [XH54](https://es.aliexpress.com/item/1005002651680040.html?src=google&src=google&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=19756272873&albag=&trgt=&crea=es1005002651680040&netw=x&device=c&albpg=&albpd=es1005002651680040&gad_source=1&gclid=CjwKCAiA5L2tBhBTEiwAdSxJX6N-TeKjtYOg5u5QFeFcUWnQepTs7rZb536z-f1eM5rPAdRRDM6xXhoCOgUQAvD_BwE&gclsrc=aw.ds&aff_fcid=6e1c5eabbb324a789b4231d842098e40-1706030428788-07464-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=6e1c5eabbb324a789b4231d842098e40-1706030428788-07464-UneMJZVf&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) model with 2 male/female pins, but another model that is available can be used.
 >i 
 
-## Fijación del driver laser {pagestep}
+## Fixing the laser driver {pagestep}
 
-Voltear tarjeta de laser driver orientándola tal que el potenciómetro quede bien posicionado. Juntar y apernar separadores [S1] y [S2] usando pernos M3X25 directamente en [panel] acorde a la fotografía. Posicionar y presionar separador [S3] al [panel]. Finalmente apernar "laser driver" con 2 pernos M3x6 a los separadores.
+Flip the laser driver card, orienting it so that the potentiometer is well positioned. Join and bolt spacers [S1] and [S2] using M3X25 bolts directly to [panel] according to the photograph. Position and press separator [S3] to [panel]. Finally, bolt the "laser driver" with 2 M3x6 bolts to the spacers.
 
 ![](images/laser-driver-tapa-top.jpg)
 ![](images/espaciadores.jpg)
@@ -135,36 +134,34 @@ Voltear tarjeta de laser driver orientándola tal que el potenciómetro quede bi
 ![](images/laser-driver-tapa-top_2.jpg)
 
 >i
->i Para kit que incluye láser de 638nm posicionar y presionar separadores [S4] y [S5], para posteriormente apernar laser driver de 4A. Las especificaciones técnicas del "laser driver de 4A" las puede encontrar en el siguiente link [Micost driver 4A](docu/Micostdriver4A20190817120190389038.pdf).  
+>i For a kit that includes a 638nm laser, position and press spacers [S4] and [S5], and then screw on the 4A laser driver. The technical specifications of the "4A laser driver" can be found in the following link [Micost driver 4A](docu/Micostdriver4A20190817120190389038.pdf).  
 
-## Láminas protectoras del acrílico {pagestep}
+## Acrylic Protective Sheets {pagestep}
 
-Sacar láminas protectoras del [acrílico] de ambos lados
+Remove protective sheets from the [acrylic] on both sides
 
 ![](images/acrilico.jpg)
 
-## Montaje de tapa acrílica {pagestep}
+## Acrylic part assembly {pagestep}
 
-* Posicionar 4 tuercas M3 como se muestra en la siguiente imagen.
+* Position 4 M3 nuts as shown in the following image.
 
 ![](images/tapa-bottom.jpg)
 
-* Orientar tapa de [acrílico] como se muestra en la siguiente imagen. 
-* Encajar [separadores] a 4 pernos M3x10, posteriormente apretar. 
-* Pegar [gomas antideslizantes](https://es.aliexpress.com/item/1005003412557369.html) en cada perno.
+* Orient [acrylic] cap as shown in the following image.
+* Fit [spacers] to 4 M3x10 bolts, then tighten.
+* Paste [non-slip rubber](https://es.aliexpress.com/item/1005003412557369.html) on each bolt.
 
 ![](images/tapa-bottom_1.jpg)
 
-## Ensamblaje de perillas {pagestep}
+## Knob assembly {pagestep}
 
-Posicionar y presionar [perilla 1] en perforación de motor y [perilla 2] en perforación de láser del [panel]. Posteriormente superponer [perillas](https://es.aliexpress.com/item/1005002892197056.html?spm=a2g0o.productlist.main.9.769156d0pQolYo&algo_pvid=c58c1c17-6ab1-425a-bfe0-7cc6cde3e98b&aem_p4p_detail=2024010217200310167946168983550001415481&algo_exp_id=c58c1c17-6ab1-425a-bfe0-7cc6cde3e98b-4&pdp_npi=4%40dis%21CLP%21790%21736.0%21%21%210.87%21%21%402103200617042448036492860e0b66%2112000022651901158%21sea%21CL%210%21AB&curPageLogUid=sHWBf4mLwUIh&search_p4p_id=2024010217200310167946168983550001415481_5) para mejorar agarre. 
+Position and press [knob 1] in motor hole and [knob 2] in laser hole of [panel]. Later press [knobs](https://es.aliexpress.com/item/1005002892197056.html?spm=a2g0o.productlist.main.9.769156d0pQolYo&algo_pvid=c58c1c17-6ab1-425a-bfe0-7cc6cde3e98b&aem_p4p_detail=2024010217200310167946168983550001415481&algo_exp_id=c58c1c17-6ab1-425a-bfe0-7cc6cde3e98b-4&pdp_npi=4%40dis%21CLP%21790%21736.0%21%21%210.87%21%21%402103200617042448036492860e0b66%2112000022651901158%21sea%21CL%210%21AB&curPageLogUid=sHWBf4mLwUIh&search_p4p_id=2024010217200310167946168983550001415481_5) to improve grip.
 
 ![](images/perillas.gif)
 ![](images/perillas_1.gif)
 
-A continuación, se comparte fotografía del módulo láser completamente ensamblado.
+Below is a photo of the fully assembled laser module.
 
 ![](images/interfaz-usuario.jpg)
 ![](images/interfaz-usuario_1.jpg)
-
-

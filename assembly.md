@@ -1,12 +1,12 @@
 # Modular fiber-coupled laser illumination
 
-Antes de iniciar con la construcción de este sistema de iluminación, usted deberá conseguir todos los componentes que aparecen en esta [lista de materiales](docu/assembly_BOM2.csv)
+Before starting the construction of this lighting system, you must obtain all the components that appear in this [list of materials](docu/assembly_BOM2.csv)
 
-## Instrucciones
+## Instructions
 
-Estas instrucciones lo guiarán en cómo ensamblar el sistema modular de iluminación láser acoplada a fibra.
+These instructions will guide you on how to assemble the modular fiber coupled laser illumination system.
 
-Este sitio web esta basado en la plataforma GitBuilding. El ensamblaje está detallado en los siguientes pasos:
+This website is based on the GitBuilding platform. The assembly is detailed in the following steps:
 
 * [.](sistema-optico.md){step}
 * [.](control-temperatura.md){step}

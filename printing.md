@@ -1,34 +1,37 @@
-# Impresión 3D de partes plásticas 
+# 3D Printing Plastic Parts
 
 
-## Seteo de los parámetros de impresión {pagestep}
+## Setting printing parameters {pagestep}
 
-Todas las piezas se pueden imprimir usando filamento PLA en alguna de las impresoras RepRap-style como la Prusa i3 MK3S.
+All parts can be printed using PLA filament on one of the RepRap-style printers such as the [Prusa i3 MK3S](https://www.prusa3d.com/es/categoria/original-prusa-i3-mk3s/)
 
-Se recomiendan los siguientes parámetros para la impresión: 
+The following parameters are recommended for printing:
 
-|Configuración        |Valor         |
+|Setting        |Option         |
 |------------   |--             |
 |Material       |PLA            |
 |Color      |Negro         |
-|Temperatura |Recomendada para PLA|
-|Altura de capa   |0.2mm, 0.1mm (para piezas con hilo)  |
+|Temperature |Recommended for PLA|
+|Layer Height   |0.2mm, 0.1mm (for parts with threads) |
 
-## Impresión 3D {pagestep}
+## 3D Print {pagestep}
 
-Puedes descargar todos los modelos en formato STL en un unico archivo zipfile [modelos 3D](docu/models.zip).
+You can download all the models in STL format in a single zipfile file [3D models](docu/models.zip).
 
-## Limpieza de piezas impresas {pagestep}
+## Cleaning printed parts {pagestep}
 
->!! **Tenga cuidado al quitar los bordes:** Para evitar lesiones, primero retire la mayor parte del borde sin un cuchillo. Retire el borde restante con una acción de pelado como se describe a continuación.
+>!! **Be careful when removing edges:** To avoid injury, first remove most of the edge without a knife. Remove the remaining edge with a peeling action as described below.
 
-Retire con cuidado el borde de impresión de todas las piezas. 
+Carefully remove the print border from all pieces.
 
-1. Utilice cortadores de alambre de precisión para quitar la mayor parte del borde de la pieza.
-2. Limpie el borde restante con una navaja:
-     * Sostenga el cuchillo en tu mano dominante con 4 dedos enrollados alrededor del mango, dejando el pulgar libre.
-     * Sostenga la pieza con la otra mano, lo más alejada posible de la superficie a cortar.
-     *Apoya la parte con el pulgar de tu mano dominante.
-     * Colocar la hoja sobre la superficie a cortar, y cerrar con cuidado la mano dominante, moviendo la hoja, bajo control, hacia el pulgar.
+ 1. Use precision wire cutters to remove most of the edge of the piece.
+ 2. Clean the remaining edge with a razor:
 
+      **2.1** Hold the knife in your dominant hand with 4 fingers wrapped around the handle, leaving the thumb free.
+
+      **2.2** Hold the piece with your other hand, as far away from the surface to be cut as possible.
+
+      **2.3** Support the part with the thumb of your dominant hand.
+
+      **2.4** Place the blade on the surface to be cut, and carefully close the dominant hand, moving the blade, under control, towards the thumb.
 ![](images/BrimRemoval.jpg)
