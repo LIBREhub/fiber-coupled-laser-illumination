@@ -92,5 +92,5 @@ To perform optical tests that require the use of [diffuser], follow the followin
 
 For activity that requires adjusting the position of the lens depending on its focal length, you could replace and use the [adjustable lens tube] part instead of one of the optical tubes.
 
-![](images/tubolenter.png)
-![](images/tubolente2r.png)
+![](images/tubolente.png)
+![](images/tubolente2.png)

@@ -63,8 +63,8 @@ Screw two M2x10mm bolts to fix the electronic card.
 
 >i It is recommended to place bolts on [separator] to avoid short circuit.
 
-![](images/adaptador-tornillos.jpg)
-![](images/senuelo-adaptador-tornillos.jpg)
+![](images/adaptador-tornillosn.png)
+![](images/senuelo-adaptador-tornillosn.png)
 
 Insert two M3x10mm nuts and then fix to the [panel].
 
@@ -89,8 +89,8 @@ Insert and press [ammeter](https://es.aliexpress.com/item/1005005867205046.html?
 
 Position and fix the 3x7cm electronic card on [panel] using the 4 M2x10 screws included. Respect guidance according to the following images.
 
-![](images/pcb.jpg)
-![](images/pcb-tapa-top.jpg)
+![](images/pcbn.png)
+![](images/pcb-tapa-topn.png)
 
 
 >i The electronic card is only included in kits whose laser has a wavelength of 405 nm or 638 nm. For more information go to the following link [Current Limiting Circuit](circuito.md) 
@@ -128,9 +128,9 @@ Below are photographs of the "laser driver" included in the kit, along with a re
 
 Flip the laser driver card, orienting it so that the potentiometer is well positioned. Join and bolt spacers [S1] and [S2] using M3X25 bolts directly to [panel] according to the photograph. Position and press separator [S3] to [panel]. Finally, bolt the "laser driver" with 2 M3x6 bolts to the spacers.
 
-![](images/laser-driver-tapa-top.jpg)
 ![](images/espaciadores.jpg)
 ![](images/espaciadores2.jpg)
+![](images/laser-driver-tapa-topn.png)
 ![](images/laser-driver-tapa-top_2.jpg)
 
 >i
@@ -157,9 +157,6 @@ Remove protective sheets from the [acrylic] on both sides
 ## Knob assembly {pagestep}
 
 Position and press [knob 1] in motor hole and [knob 2] in laser hole of [panel]. Later press [knobs](https://es.aliexpress.com/item/1005002892197056.html?spm=a2g0o.productlist.main.9.769156d0pQolYo&algo_pvid=c58c1c17-6ab1-425a-bfe0-7cc6cde3e98b&aem_p4p_detail=2024010217200310167946168983550001415481&algo_exp_id=c58c1c17-6ab1-425a-bfe0-7cc6cde3e98b-4&pdp_npi=4%40dis%21CLP%21790%21736.0%21%21%210.87%21%21%402103200617042448036492860e0b66%2112000022651901158%21sea%21CL%210%21AB&curPageLogUid=sHWBf4mLwUIh&search_p4p_id=2024010217200310167946168983550001415481_5) to improve grip.
-
-![](images/perillas.gif)
-![](images/perillas_1.gif)
 
 Below is a photo of the fully assembled laser module.
 
