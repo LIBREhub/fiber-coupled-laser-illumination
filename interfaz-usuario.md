@@ -136,6 +136,12 @@ Flip the laser driver card, orienting it so that the potentiometer is well posit
 >i
 >i For a kit that includes a 638nm laser, position and press spacers [S4] and [S5], and then screw on the 4A laser driver. The technical specifications of the "4A laser driver" can be found in the following link [Micost driver 4A](docu/Micostdriver4A20190817120190389038.pdf).  
 
+
+>! **Warning** 
+>!
+>! For the position of the potentiometer to be correctly adjusted, you will probably have to redesign some dimensions of the separators S1, S2, S3 or S4 and S5. The above depend on the final position of the potentiometer in the electronic card (laser driver) that will use.
+
+
 ## Acrylic Protective Sheets {pagestep}
 
 Remove protective sheets from the [acrylic] on both sides
