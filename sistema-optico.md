@@ -1,10 +1,10 @@
 [inner ring]: models/anillo.stl "{previewpage}"
-[OP tool]: models/Herramienta.stl  "{previewpage}"
+[ring tool]: models/Herramienta.stl  "{previewpage}"
 [optical tube]: models/tubo.stl  "{previewpage}"
 [clamps]: models/abrazadera.stl "{previewpage}"
 [laser fiber adapter]: models/adaptadorfibra.stl "{previewpage}"
 [diffuser]: models/Difusor.stl "{previewpage}"
-[fasteners]: models/sujetador.stl "{previewpage}"
+[surface holders]: models/sujetador.stl "{previewpage}"
 [adjustable lens tube]: models/Tubolente.stl "{previewpage}"
 
 # Optical Module
@@ -13,7 +13,7 @@
 
 ## Optical Lens {pagestep}
 
-Shim [inner ring] into [OP tool]. Then, insert into [optical tube] and rotate to a minimum depth of 6mm to later insert lens and second internal ring.
+Insert [inner ring] into the [ring tool]. Then, insert into the [optical tube] and rotate to a minimum depth of 6mm to later insert the lens and second internal ring.
 
 ![](images/anillo1-OP.jpg)
 ![](images/anillo1-OP_1.jpg)
@@ -24,7 +24,7 @@ Insert lens into [optical tube].
 ![](images/tubo-lente.jpg)
 ![](images/tubo-lente_1.jpg)
 
-Fit second [inner ring] on [OP tool], insert into [optical tube] and turn until it stops.
+Fit the second [inner ring] on the [ring tool], insert into the [optical tube] and screw until tightening the lens in place between the two internal rings.
 
 ![](images/anillo2-OP.jpg)
 ![](images/tubo-OP.jpg)
@@ -34,7 +34,7 @@ Fit second [inner ring] on [OP tool], insert into [optical tube] and turn until 
 
 For this step, you must have the [optical tube] with its attached lens, assembled in the previous step.
 
-Fit both tubes and turn until the end.
+Fit both tubes and screw until the end.
 
 ![](images/tubo-lente-anillos-tubo.jpg)
 ![](images/tubo-lente-anillos-tubo_1.jpg)  
@@ -43,7 +43,7 @@ Fit both tubes and turn until the end.
 
 For this step, you must have the extended optical tube, assembled in the previous step.
 
-Place [clamps] on a horizontal surface at a distance of 25 mm between both parts. Then, assemble optical tube to both [clamps] by pressing down.
+Two tube [clamps] will be used to hold the light output parallel to a horizontal surface. Place the two tube clamps on a horizontal surface at a distance of 25 mm between both parts. Then, fit the [optical tube] into both clamps by pressing down on the tube on top of the clamps.
 
 ![](images/tubo-extendido-abrazadera.jpg)
 ![](images/tubo-extendido-abrazadera_1.jpg)  
@@ -72,25 +72,26 @@ The assembly should look like the image below.
 
 ## Laser aiming surface {pagestep}
 
-For optical safety protocol, it is recommended to use a flat, black surface to point the laser. Included in the kit are 2 [fasteners] and a piece of black cardboard for this purpose.
-
+To test the operation of the laser safely, we recommend using a flat, black surface to terminate the laser propagation. Included in the kit are a piece of black cardboard and two [surface holders] for this purpose.
 
 ![](images/superficie.jpg)
 
 
 ## Diffuser {pagestep}
 
-To perform optical tests that require the use of [diffuser], follow the following instructions:
+To perform optical tests that require the use of [diffuser]:
 
-* Stick a piece of adhesive tape on the [diffuser] so that the passage of light through it is interfered with.
-* Fit [diffuser] into [OP tool] and insert the optical tube through the section closest to the [laser fiber adapter].
+* Make sure the laser is turned off before adjusting elements in the light path. Take apart the extended tube by unscrewing apart both segments. 
+* Cover the aperture of the [diffuser] holder inner ring using a segment of clear diffusing adhesive tape.
+* Fit the [diffuser] holder inner ring into the [ring tool] and insert the diffuser into the optical tube screwing from the open side of the tube closest to the [laser fiber adapter]. Reassemble the extended tube by screwing the tube segments together.
+
 
 ![](images/difusor.jpg)
 ![](images/tubo-OP.jpg)
 
 ## Adjustable Lens Tube {pagestep}
 
-For activity that requires adjusting the position of the lens depending on its focal length, you could replace and use the [adjustable lens tube] part instead of one of the optical tubes.
+Make sure the laser is turned off before adjusting elements in the light path. For activity that requires adjusting the position of the lens depending on its focal length, you could replace and use the [adjustable lens tube] part instead of one of the optical tubes.
 
 ![](images/tubolente.png)
 ![](images/tubolente2.png)

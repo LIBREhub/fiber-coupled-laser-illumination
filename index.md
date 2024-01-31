@@ -1,11 +1,12 @@
-# Modular fiber-coupled laser illumination
+# Low-cost, modular fiber-coupled laser illumination
 
-The modular fiber coupled laser illumination system is a free and open source device. This system can use lasers with multiple wavelengths, coupled into a single optical fiber, allowing easy digital targeting without structural modifications. Its modular design allows you to reuse and improve individual parts, combine them, exchange them or easily use them on their own.
+The low-cost, modular fiber-coupled laser illumination system is an open source device that houses a diode laser coupled into a multimode optical fiber, and provides friendly and stable operation. This system can be assembled with lasers of a variety of colors, and has been tested with 488 nm, 405 nm, and 638 nm. Its modular design allows you to reuse and improve individual parts, combine them, exchange them or easily use them on their own.
+
 
 ![](images/modulolaser4.jpg)
 
 
->i **Note:** This system is based on some resources from:
+>i **Note:** This system builds upon resources from:
 >i 
 >i 1.- [SQUID-TRACKING](https://github.com/prakashlab/squid-tracking).
 >i *Li, Hongquan, et al. "Squid: simplifying quantitative imaging platform development and deployment." bioRxiv (2020): 2020-12.*

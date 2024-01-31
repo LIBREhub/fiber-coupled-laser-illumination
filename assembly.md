@@ -1,6 +1,6 @@
 # Modular fiber-coupled laser illumination
 
-Before starting the construction of this lighting system, you must obtain all the components that appear in this [list of materials](docu/assembly_BOM2.csv)
+Before starting the construction of this illumination system, you must obtain all the components that appear in this [list of materials](docu/assembly_BOM2.csv)
 
 ## Instructions
 
