@@ -139,7 +139,7 @@ Flip the laser driver card, orienting it so that the potentiometer is well posit
 
 >! **Warning** 
 >!
->! For the position of the potentiometer to be correctly adjusted, you will probably have to redesign some dimensions of the separators S1, S2, S3 or S4 and S5. The above depend on the final position of the potentiometer in the electronic card (laser driver) that will use.
+>! For the position of the potentiometer to be correctly adjusted, you will probably have to redesign some dimensions of the separators S1, S2, S3 or S4 and S5. The above depend on the final position of the potentiometer in the electronic card (laser driver) that will use. For more information go to the following link [separators](separators.md) 
 
 
 ## Acrylic Protective Sheets {pagestep}

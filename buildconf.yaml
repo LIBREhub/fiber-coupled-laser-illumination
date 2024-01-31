@@ -36,9 +36,11 @@ Navigation:
         Title: Blue Laser
     Title: Current Limiting Circuit
   - Link: printing.md
-    Title: 3D Printing Parts
     SubNavigation:
       - Link: rosca.md
         Title: Thread 1.035"-40.0 TPI
+      - Link: separators.md
+        Title: Separators
+    Title: 3D Printing Parts
 PrimaryColor: '#2D3D5B'
 SecondaryColor: '#cccccc'
