@@ -42,5 +42,7 @@ Navigation:
       - Link: separators.md
         Title: Separators
     Title: 3D Printing Parts
+  - Link: laser.md
+    Title: Laser diode characterization
 PrimaryColor: '#2D3D5B'
 SecondaryColor: '#cccccc'

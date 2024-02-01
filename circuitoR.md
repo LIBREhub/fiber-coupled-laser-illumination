@@ -7,8 +7,9 @@ Details:
 ---
 <!-- There should be only one Header per page. You do not need to use all the keys -->
 
-#Red Laser (Measured operation)
+#Red Laser 
 
+For more information on how these operational measurements were obtained, visit the following link: [Laser diode characterization](laser.md)
 >i 
 >i To limit the optical power of the laser, a resistance **R1= 2 ohm** is considered. According to the manufacturer's technical specifications, this laser can reach an optical power of 700 mW with a current consumption of 1 A.
 

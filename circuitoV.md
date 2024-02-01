@@ -8,7 +8,7 @@ Details:
 <!-- There should be only one Header per page. You do not need to use all the keys -->
 
 # Violet Laser (Measured operation)
-
+For more information on how these operational measurements were obtained, visit the following link: [Laser diode characterization](laser.md)
 >! **Warning** 
 >!
 >! Due to the limiter circuit included in the kit presents problems, it is recommended to use the laser without this electronic card. Taking care that the current recorded on the included analog ammeter does not exceed 400 mA to avoid damaging the laser.
