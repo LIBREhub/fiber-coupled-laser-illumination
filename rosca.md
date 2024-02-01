@@ -7,7 +7,7 @@
 
 # Thread 1.035"-40.0 TPI
 
-Whether for the design of internal or external threads, 4 fundamental parameters must be taken into consideration, which are: Flanck Angle, Pitch, Major Diameter and Minor Diameter.
+Whether for the design of internal or external threads, 4 fundamental parameters must be taken into consideration, which are: Flank Angle, Pitch, Major Diameter and Minor Diameter.
 
 ![](images/rosca.jpg)
 ![](images/hilo.jpg)
@@ -25,4 +25,4 @@ line perpendicular to the axis of the screw.
 
 Taking into consideration the above, both internal and external threads were designed that were compatible with optical parts that use the 1.035"-40TPI thread, using the OnShape software. 
 
-In case compatibility with the 1.035"-40TPI thread is required, you can download the models with new thread in STL format in a single zipfile file [3D Models Threads](docu/modelsthread.zip). You can also download each part with 1.035"-40TPI thread separately: [adaptadorfibra-TL], [anillo-TL], [difusor-TL], [tubo-TL], [tubolente-TL]. 
+In case compatibility with the 1.035"-40TPI thread is required, you can download the models with thread in STL format in a single zipfile file [3D Models Threads](docu/modelsthread.zip). You can also download each part with 1.035"-40TPI thread separately: [adaptadorfibra-TL], [anillo-TL], [difusor-TL], [tubo-TL], [tubolente-TL]. 

@@ -10,7 +10,7 @@ The following parameters are recommended for printing:
 |Setting        |Option         |
 |------------   |--             |
 |Material       |PLA            |
-|Color      |Negro         |
+|Color      |Black         |
 |Temperature |Recommended for PLA|
 |Layer Height   |0.2mm, 0.1mm (for parts with threads) |
 

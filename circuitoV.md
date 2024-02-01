@@ -1,13 +1,13 @@
 ---
 Details:
     Thumbnail: images/violet.webp
-    Maximum Current: 400 mA
     Wavelength: 405 nm
-    Optical Power: 300 mW
+    Maximum Current: 345 mA
+    Optical Power: 312 mW
 ---
 <!-- There should be only one Header per page. You do not need to use all the keys -->
 
-# Violet Laser
+# Violet Laser (Measured operation)
 
 >! **Warning** 
 >!

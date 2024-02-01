@@ -25,21 +25,24 @@ Position electronic card [LM2596](https://es.aliexpress.com/item/100500588435502
 
 
 >i This electronic card has a voltage divider soldered on so that it can deliver a regulated voltage between 0.4-3V.
+>i The purpose of this component is to facilitate the optional extension of the module by adding a micro motor to induce fiber vibration and homogenize the laser speckle noise. This is not required for basic laser light output. 
 
-## Fast charge decoy trigger PD/QC/AFC {pagestep}
+## Power supply module {pagestep}
 
-Set switches S1, S2, S3 to positions 1, 0, 1 so that the [purple electronic card](https://es.aliexpress.com/item/1005005545068349.html?src=google&src=google&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=17859513307&albag=&trgt=&crea=es1005005545068349&netw=x&device=c&albpg=&albpd=es1005005545068349&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuSc41kMTyFCGuZivUT3Y83JiySAkngonaXl0KXYEmAv4M42LV6ynJwaAu4yEALw_wcB&gclsrc=aw.ds&aff_fcid=b4c5e71cd4cf46939412049bbef67a0c-1704235802247-05320-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=b4c5e71cd4cf46939412049bbef67a0c-1704235802247-05320-UneMJZVf&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) supplies a voltage of 12V. 
+The laser system is powered by a USB powered 12V interface module sold as “Fast charge decoy trigger PD/QC/AFC” module.
+
+Set switches S1, S2, S3 to positions 1, 0, 1 so that the [module](https://es.aliexpress.com/item/1005005545068349.html?src=google&src=google&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=17859513307&albag=&trgt=&crea=es1005005545068349&netw=x&device=c&albpg=&albpd=es1005005545068349&gad_source=1&gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuSc41kMTyFCGuZivUT3Y83JiySAkngonaXl0KXYEmAv4M42LV6ynJwaAu4yEALw_wcB&gclsrc=aw.ds&aff_fcid=b4c5e71cd4cf46939412049bbef67a0c-1704235802247-05320-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=b4c5e71cd4cf46939412049bbef67a0c-1704235802247-05320-UneMJZVf&terminal_id=1c7dbf56fc6547ef8fa57d8207a07536&afSmartRedirect=y) supplies a voltage of 12V. 
 
 ![](images/senuelo carga.jpg)
 ![](images/combinaciones.jpg)
 ![](images/zoom.jpg)
 
->! The configuration of the switches may vary according to the one indicated. To verify please look at the combinations detailed on the back of the electronic card.
+>! The configuration of the switches may vary from the one indicated. To verify please look at the combinations detailed on the back of the electronic card.
 
 
 ## Switches {pagestep}
 
-Insert purple electronic card with previously soldered switch, through the hole for the motor switch located in the [panel]. *This switch activates the [vibrator micromotor](https://www.google.com/url?q=http://aliexpress.com/item/32868996252.html&sa=D&source=editors&ust=1704301415884379&usg=AOvVaw0RUHXutocwyE4PJUE4tQv3)* and can decrease the [speckle] present in the laser light beam.
+Insert electronic card with previously soldered switch, through the hole for the motor switch located in the [panel]. *This switch activates the optional [vibrator micromotor](https://www.google.com/url?q=http://aliexpress.com/item/32868996252.html&sa=D&source=editors&ust=1704301415884379&usg=AOvVaw0RUHXutocwyE4PJUE4tQv3)* to decrease the [speckle] present in the laser light beam.
 
 
 >i If you want to use the vibrating micromotor, you must attach it to the [holder] and this at the same time to the laser's optical fiber to transfer the vibrations.
@@ -48,7 +51,7 @@ Insert purple electronic card with previously soldered switch, through the hole 
 ![](images/interruptoresw.jpg)
 ![](images/interruptores-senuelo_1.jpg)
 
-Insert the second switch through the laser hole and press to secure to [panel]. *This switch activates the laser*
+Insert the second switch through the laser hole and press to secure to the [panel]. *This switch activates the laser*.
 
 >i For soldering the switches please consider the following [electrical connection diagram](docu/diagramaa.pdf)
 
@@ -73,14 +76,15 @@ Insert two M3x10mm nuts and then fix to the [panel].
 
 ## M12 adapter cable fixing {pagestep}
 
-Insert [M12 connector](https://es.aliexpress.com/item/1005005922136440.html?gatewayAdapt=glo2esp) from the inside of the [panel] in its respective perforation. Then fix the M12 nut.
+Insert [M12 connector](https://es.aliexpress.com/item/1005005922136440.html?gatewayAdapt=glo2esp) from the inside of the [panel] in its respective perforation.  Then tighten the M12 nut.
+
 ![](images/cable-m12.jpg)
 ![](images/cable-m12_1.jpg)
 ![](images/cable-m12-tapa-top.jpg)
 
 ## Ammeter {pagestep}
 
-Insert and press [ammeter](https://es.aliexpress.com/item/1005005867205046.html?gatewayAdapt=glo2esp) in the [panel]. Fix ammeter with M3 nuts.
+Insert and press the [ammeter](https://es.aliexpress.com/item/1005005867205046.html?gatewayAdapt=glo2esp) in the [panel]. Fix the ammeter with M3 nuts.
 
 ![](images/amperimetro.jpg)
 ![](images/amperimetro-tornillos.jpg)

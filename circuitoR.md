@@ -1,13 +1,13 @@
 ---
 Details:
     Thumbnail: images/red.png
-    Maximum Current: 625 mA
-    Wavelength: 638 nm
-    Optical Power: 500 mW
+    Wavelength: 638 nm 
+    Maximum Current: 460 mA
+    Optical Power: 295 mW
 ---
 <!-- There should be only one Header per page. You do not need to use all the keys -->
 
-#Red Laser
+#Red Laser (Measured operation)
 
 >i 
 >i To limit the optical power of the laser, a resistance **R1= 2 ohm** is considered. According to the manufacturer's technical specifications, this laser can reach an optical power of 700 mW with a current consumption of 1 A.
